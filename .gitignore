@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# We need to recurse into sub directories, don't ignore!
+!*/
+# We need to ignore everything inside subfolders
+*/*/
+# But don't ignore these files
+!.gitignore
+!README.md
+!/ultisnips/*
+!/pythonx/vimsnippets.py
+!/plugin/*
